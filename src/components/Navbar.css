@@ -21,8 +21,8 @@
   
   .navbar-logo {
     color: #fff;
-    justify-self: start;
-    margin-left: 20px;
+    justify-self:start;
+    margin-left: 10px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -66,6 +66,11 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+  }
+
+  .nav-links-.nav-links-spacer {
+    border-bottom: none;
+    transition: none;
   }
   
   .nav-links:hover {

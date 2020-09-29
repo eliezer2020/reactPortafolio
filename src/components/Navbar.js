@@ -10,6 +10,7 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeDrawerMenu = () => setClick(false);
 
+   
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -27,16 +28,18 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeDrawerMenu}>
-            GERMOR...
-            <i class="fab fa-android" />
+            GMORALES  <i class="fab fa-react"></i>
+            
+            
           </Link>
+         
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeDrawerMenu}>
-                HomePage
+                Home Page
               </Link>
             </li>
             <li >
@@ -50,14 +53,18 @@ function Navbar() {
                 target="_blank"
                 href="https://gersonmorales.com/#/"
               >
-                FlutterPage
+                Flutter Page
               </a>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" >
+              <Link to="/" className="nav-links-spacer" >
                 
               </Link>
             </li>
+            
+          
+            
+        
           </ul>
         </div>
       </nav>
