@@ -16,8 +16,8 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       
-      <h1>Hi, I´M GERSON MORALES</h1>
-      <p  > A passionate Junior Software Engineer </p>
+      <p>Hi, I´M GERSON MORALES</p>
+      <p2  > A passionate Junior Software Engineer </p2>
       <div className='hero-btns'>
         <Button
         onClick={scrollDown}
