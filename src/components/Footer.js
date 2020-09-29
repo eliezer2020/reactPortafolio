@@ -20,10 +20,21 @@ function Footer() {
             target="_blank"
             href="https://www.linkedin.com/in/gerson-eliezer-morales-hernandez-a1b771153/"
           >
-            <h4> Linkeding</h4>
+             <Button
+        
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          Linkeding
+        </Button>
+        
+           
            
           </a>
-          <h5>contacto.gerson.mexico@gmail.com </h5>
+          <p className="footer-subscription-text">contacto.gerson.mexico@gmail.com</p>
+
+         
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ function HeroSection() {
 
     const scrollDown = () =>{
         window.scrollBy({
-            top: 390,
+            top: 420,
             behavior: 'smooth',
           });
     }
